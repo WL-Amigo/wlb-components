@@ -1,0 +1,13 @@
+{
+  "name": "wlb-components",
+  "version": "1.0.0",
+  "description": "Web Components to use in WhiteLuckBringers' works",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amigo (WhiteLuckBringers)",
+  "license": "MIT",
+  "private": true
+}

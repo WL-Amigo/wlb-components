@@ -1,0 +1,33 @@
+{
+  "name": "wlb-works",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.12.17",
+    "@snowpack/plugin-babel": "^2.1.6",
+    "autoprefixer": "^10.2.4",
+    "babel-preset-solid": "^0.24.2",
+    "csso": "^4.2.0",
+    "esbuild": "^0.8.49",
+    "postcss": "^8.2.6",
+    "snowpack": "^3.0.11",
+    "tailwindcss": "^2.0.3",
+    "typescript": "4.1.5"
+  },
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build && esbuild --bundle --minify --outfile='./build/dist.js' ./build/component.js"
+  },
+  "browserslist": [
+    "Chrome 74",
+    "Firefox 63",
+    "Safari 11",
+    "Edge 17",
+    "Node 10"
+  ],
+  "dependencies": {
+    "solid-element": "^0.24.7",
+    "solid-js": "^0.24.7",
+    "solid-transition-group": "^0.0.3"
+  }
+}
